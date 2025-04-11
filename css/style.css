@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 50px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.btns button{
+    width: 100px;
+    font-size: 20px;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btns button:hover{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    background-color: white;
+}
+
+.btnStart-active,
+.btnStop-active{
+    pointer-events: none;
+    opacity: 0.5;
+}
