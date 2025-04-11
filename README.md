@@ -4,7 +4,7 @@ A simple stopwatch web application built using HTML, CSS, and JavaScript. Ideal 
 🔗 Live Demo
 👉 Click here to view the stopwatch
 
-[(Replace the URL with your actual GitHub Pages link)](https://dbsstopwatch.netlify.app/)
+[(Replace the URL with your actual GitHub Pages link)](https://sadhanastopwatch.netlify.app/)
 
 📸 Screenshot
 
